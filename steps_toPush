@@ -11,3 +11,12 @@ git branch -M main
 git remote add origin "repository link"
 
 git push -u origin main
+
+
+IF WE DID CHANGES AND WANT TO PUSH THOSE NEW
+
+git add file
+
+git commit -m "commit message"
+
+git push origin "BRANCH NAME"
