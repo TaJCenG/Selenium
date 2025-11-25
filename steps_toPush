@@ -1,0 +1,13 @@
+Steps i used to push the code
+
+git init
+
+git add .
+
+git commit -m "commit message"
+
+git branch -M main
+
+git remote add origin "repository link"
+
+git push -u origin main
