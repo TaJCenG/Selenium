@@ -1,0 +1,35 @@
+package learning6;
+
+import java.io.IOException;
+
+public class secondClass extends FirstTest{
+	
+	public static String AMAZON_URL = "amazon_url";
+	public static String BROWSER_URL = "chromeBrowser";
+	public static String FLIPKART_URL = "flipkart_url";
+
+	public static void main(String[] args) throws IOException, InterruptedException {
+		
+			inIt();		
+			Launch(BROWSER_URL);
+			navigateUrl(AMAZON_URL);
+			//driver.findElement(By.id("twotabsearchtextbox")).sendKeys("RedTape Sneakers");
+			//driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
+			typeText("amazonsearchtextbox_id","RedTape Sneakers");
+			clickElement("amazonsearchbutton_xpath");
+			Thread.sleep(2000);
+			navigateUrl(FLIPKART_URL);
+			//driver.findElement(By.xpath("//div[@class='H6-NpN _3N4_BX']"));
+			//driver.findElement(By.xpath("//input[@class='_18u87m _3WuvDp']")).sendKeys("9398312254");
+			//driver.findElement(By.xpath("//button[@class='_1wGnMD rX1XT4 _2nD2xJ']")).click();
+			//clickLogin("flipkart_id");
+			typeText("flipkart__xpath", "9398312254");
+			clickElement("flipkartsubmit_xpath");
+			Thread.sleep(5000);
+			
+			driver.quit();
+			
+	}
+ 
+
+}
