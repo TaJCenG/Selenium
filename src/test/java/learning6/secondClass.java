@@ -2,6 +2,12 @@ package learning6;
 
 import java.io.IOException;
 
+/*
+ * search in amazon
+ * click login on flipkart
+ * enter number
+ * request otp
+ */
 public class secondClass extends FirstTest{
 	
 	public static String AMAZON_URL = "amazon_url";
@@ -22,9 +28,11 @@ public class secondClass extends FirstTest{
 			//driver.findElement(By.xpath("//div[@class='H6-NpN _3N4_BX']"));
 			//driver.findElement(By.xpath("//input[@class='_18u87m _3WuvDp']")).sendKeys("9398312254");
 			//driver.findElement(By.xpath("//button[@class='_1wGnMD rX1XT4 _2nD2xJ']")).click();
-			//clickLogin("flipkart_id");
-			typeText("flipkart__xpath", "9398312254");
-			clickElement("flipkartsubmit_xpath");
+			clickLogin("flipkartlogin_xpath");
+		//	typeText("flipkart_xpath", "9398312254");
+			typeText("flipkartLogin_Number_xpath", "9398312254");
+			//clickElement("flipkartsubmit_xpath");
+			clickElement("flipkartLoginSubmit_xpath");
 			Thread.sleep(5000);
 			
 			driver.quit();

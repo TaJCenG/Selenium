@@ -1,0 +1,12 @@
+2025-12-02 16:17:47 INFO  secondClass:19 - Init the properties files....
+2025-12-02 16:17:51 INFO  secondClass:21 - Openong the Browser : null
+2025-12-02 16:17:53 INFO  secondClass:23 - Navigating to Url : null
+2025-12-02 16:17:54 INFO  secondClass:25 - Selecting the option Books By using the locator : searchDropdownBox
+2025-12-02 16:17:54 INFO  secondClass:26 - Entering Text Harry Potter By using locator : twotabsearchtextbox
+2025-12-02 16:17:57 INFO  secondClass:28 - Clicked on Element By using locator : //input[@id='nav-search-submit-button']
+2025-12-02 16:21:05 INFO  secondClass:19 - Init the properties files....
+2025-12-02 16:21:09 INFO  secondClass:21 - Openong the Browser : null
+2025-12-02 16:21:12 INFO  secondClass:23 - Navigating to Url : null
+2025-12-02 16:21:13 INFO  secondClass:25 - Selecting the option Books By using the locator : searchDropdownBox
+2025-12-02 16:21:13 INFO  secondClass:26 - Entering Text Harry Potter By using locator : twotabsearchtextbox
+2025-12-02 16:21:16 INFO  secondClass:28 - Clicked on Element By using locator : //input[@id='nav-search-submit-button']

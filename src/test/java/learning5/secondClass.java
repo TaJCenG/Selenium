@@ -2,8 +2,6 @@ package learning5;
 
 import java.io.IOException;
 
-import org.openqa.selenium.By;
-
 public class secondClass extends FirstTest{
 	
 	public static String AMAZON_URL = "amazon_url";
