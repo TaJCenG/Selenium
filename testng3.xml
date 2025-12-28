@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Auto_Parameter">
+   <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testNG3.SecondTest"/>
+      <class name="testNG3.LinksTesting1"/>
+      <class name="testNG3.CheckBox1"/>
+      <class name="testNG3.RadioButton1"/>
+    </classes>
+  </test> <!-- Auto_Parameter -->
+</suite> <!-- Suite -->

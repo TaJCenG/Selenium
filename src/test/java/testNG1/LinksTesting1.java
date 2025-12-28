@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 
-import learning9.FirstTest;
+import extentReports.FirstTest;
 
 public class LinksTesting1 extends FirstTest{
 	

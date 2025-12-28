@@ -13,8 +13,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
+import extentReports2.ExtentManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import learning10.ExtentManager;
 
 public class FirstTest {
 
